@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section">
+         <h1 class="title">TIC-TAC-TOE</h1>
+         <section class="board-game">
+             <div data-cell-index="0" class="top-left"></div>
+             <div data-cell-index="1" class="top"></div>
+             <div data-cell-index="2" class="top-right"></div>
+             <div data-cell-index="3" class="middle-left"></div>
+             <div data-cell-index="4" class="middle"></div>
+             <div data-cell-index="5" class="middle-right"></div>
+             <div data-cell-index="6" class="bottom-left"></div>
+             <div data-cell-index="7" class="bottom"></div>
+             <div data-cell-index="8" class="bottom-right"></div>
+         </section>
+         <H2 class="game-status"></H2>
+         <div class="players">
+             <div>PLAYER <span class="numbers">1</span> (X)<span></span></div>
+             <div>TIE<span></span></div>
+             <div>PLAYER <span class="numbers">2</span> (O)<span></span> </div>
+        </div>
+        <button class="restart-btn">RESTART</button>
+    </section>
+    <script src="game.js"></script>
+</body>
+</html>
