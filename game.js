@@ -9,10 +9,17 @@ const bottomSqu = document.querySelector('.bottom');
 const bottomRightSqu = document.querySelector('.bottom-left');
 const gameDisplay = document.querySelector('.game-status');
 const restartBtn = document.querySelector('.restart-btn');
+var playerXStatus = document.querySelector('.X');
+var playerOStatus = document.querySelector('.O');
 
-const allBoxes = document.querySelectorAll('.board-game div')
+
+const allBoxes = document.querySelectorAll('.board-game div');
+
 var currentPlayer = 'X'
 var numberMoves = 0
+var playerOStatus = 0
+var playerXStatus = 0
+
 
 function handleClick(event) {
     var item = event.target;
@@ -32,7 +39,8 @@ function handleClick(event) {
     var s7 = bottomSqu.textContent;
     var s8 = bottomRightSqu.textContent;
     
-    
+    var i = playerXStatus
+
     if (s0 === 'X' && s1 === 'X' && s2 === 'X') {
         allBoxes[0].classList.add('blink');
         allBoxes[1].classList.add('blink');
@@ -118,7 +126,9 @@ function handleClick(event) {
 function restartHanlde() {
     for (let i =0; i < allBoxes.length; i++) {
         allBoxes[i].textContent = "";
-}
+        allBoxes[i].classList.remove('blink')
+    }
+
 }
 
 
