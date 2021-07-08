@@ -8,6 +8,23 @@
     100%{   color: rgb(0, 153, 255);    }
 }
 
+@media only screen and (max-device-width: 480px) {
+    body {
+        display: none;
+    }
+
+    .game-board {
+        display: grid;
+        grid-template-rows: repeat(3, 100px);
+        grid-template-columns: repeat(3, 100px);
+    }
+
+    .players {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
 
 body {
     display: flex;
