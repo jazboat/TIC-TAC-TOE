@@ -94,9 +94,9 @@ function handleClick(event) {
         allBoxes[4].classList.add('blink');
         allBoxes[6].classList.add('blink');
     } else if (s0 === 'O' && s4 === 'O' && s8 === 'O') {
+        allBoxes[0].classList.add('blink');
+        allBoxes[4].classList.add('blink');
         allBoxes[8].classList.add('blink');
-        allBoxes[7].classList.add('blink');
-        allBoxes[6].classList.add('blink');
     } else {
         if (numberMoves === 9) {
             for (let i =0; i < allBoxes.length; i++) {
