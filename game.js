@@ -7,8 +7,7 @@ var allBoxes = document.querySelectorAll('.box');
 
 var currentPlayer = 'X'
 var numberMoves = 0
-var playerOStatus = 0
-var playerXStatus = 0
+
 
 
 function handleClick(event) {
