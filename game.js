@@ -119,6 +119,8 @@ function restartHanlde() {
     for (let i =0; i < allBoxes.length; i++) {
         allBoxes[i].textContent = "";
         allBoxes[i].classList.remove('blink')
+        currentPlayer = 'X' 
+        numberMoves = 0
     }
 
 }
