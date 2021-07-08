@@ -8,9 +8,17 @@
     100%{   color: rgb(0, 153, 255);    }
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 480px) {
     body {
-        display: none;
+        display: unset;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    button {
+        font-size: 10px;
     }
 
     .game-board {
@@ -21,9 +29,11 @@
 
     .players {
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 2fr 1fr 2fr;
+        font-size: 20px;
     }
 }
+
 
 
 body {
