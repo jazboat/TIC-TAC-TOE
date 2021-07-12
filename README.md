@@ -7,7 +7,7 @@ Visioin
 
 When I began to think of how I would design this game I instantly drew a basic layout like I used to when I was in school playing with friends. I knew instantly I wanted to keep my design simple but effective, I set up my template first and then went onto the behind the scenes of how the app would be able to run. 
 
-HTML -> CSS -> javaScript -> CSS
+HTML --> CSS --> javaScript --> CSS
 
 Technologies Used
  - JavaScript
