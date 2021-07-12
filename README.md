@@ -3,9 +3,11 @@ https://jazboat.github.io/TIC-TACK-TOE/
 https://user-images.githubusercontent.com/84553765/125238680-e7155a80-e32a-11eb-9259-645c0301284f.mov
 
 
-Purpose
+Visioin 
 
-The purpose of this project is to demonstrate skills learnt in the first three weeks of the Software Engineering Immersive course at General Assembly; namely javaScript (including DOM manipulation), basic HTML and basic CSS.
+When I began to think of how I would design this game I instantly drew a basic layout like I used to when I was in school playing with friends. I knew instantly I wanted to keep my design simple but effective, I set up my template first and then went onto the behind the scenes of how the app would be able to run. 
+
+HTML -> CSS -> javaScript -> CSS
 
 Technologies Used
  - JavaScript
